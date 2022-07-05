@@ -461,6 +461,20 @@ footer {
     margin-bottom: 15px;
   }
 }
+@media screen and (max-width: 375px) {
+  :root {
+    --fs-h2: 2em;
+  }
+
+  .about .content-box {
+    padding: 0 20px;
+  }
+
+  .about.content-box h2 {
+    font-size: var(--fs-h2);
+    margin-bottom: 15px;
+  }
+}
 @media screen and (max-width: 280px) {
   :root {
     --fs-h2: 1.5em;
