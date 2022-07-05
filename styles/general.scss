@@ -491,3 +491,13 @@ footer {
 		left: 20px;
 	}
 }
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	background: var(--black);
+	color: var(--white);
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
